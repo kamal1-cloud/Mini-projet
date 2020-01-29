@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 30% 30% 34% ;
+    grid-template-rows: 50% 50%;
+   
+    justify-content: space-between;
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    /*margin-bottom: 10%;*/
+    
+   
+}
+#firstpara{
+    text-align: center;
+    font-weight: initial;
+    font-size: 30px;
+    
+}
+.night{
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 100%;
+    font-size: 32px;
+}
+ #para{
+    color: #c1c0c5;
+    
+     padding-top: 20px;
+    
+     text-align: center;
+     
+    font-size: 14px 
+ }
+ .para{
+    color: #c1c0c5;
+    font-size: 14px  
+    
+ }
+ .child1{
+     padding-top: 50px;
+ }
+
+
+.child2{
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.2);
+    border-top: 4px solid hsl(0, 78%, 62%);
+    padding: 5%;
+    height: 57%;
+    margin-top: 57%;
+  
+      
+    
+}
+
+    
+.child3{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+     border-top :4px solid hsl(180, 62%, 55%);
+     padding: 5%;
+     margin-top: 20%;
+     padding-bottom: 20%;
+     height: 50%;
+}
+.child34{
+    margin-top: -10% ;
+}
+     
+.child4{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    border-top: 4px solid  hsl(34, 97%, 64%);
+    padding: 5%;
+    margin-top: 30%;
+    padding-bottom: 20%;
+    height: 50%;
+}
+.child5{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    border-top: 4px solid hsl(212, 86%, 64%);
+    padding: 5%;
+        margin-top: 50%;
+        height: 57%;
+        margin-right: 20%;
+        padding-bottom: 20%;
+        width: 86%;
+        
+        
+        
+   
+}
+.img{
+    width: 50px;
+    padding: 100px 0 90px 0;
+    margin-left: 90%;
+}
+.child2 .img{
+    margin-top: 12%;
+    margin-left: 80%;
+}
+
+.child4 .img{
+     margin-top: 5%;
+     margin-left: 80%;
+}
+.child3 .img{
+    margin-top: 1%;
+    margin-left: 80%;
+}
+.child5 .img {
+   margin-top: 5%;
+   margin-left: 80%;
+}
+@media  (max-width: 1420px){
+    .child1{
+        margin-bottom: 20%;
+        padding: 5%;
+        
+    }
+    .container{
+        
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 50% 50%;
+        margin-left: 5%;
+        font-family: 'Poppins', sans-serif;
+
+       
+    }
+    .child2{
+        box-sizing: border-box;
+        padding: 5%;
+        height: 60%;
+        margin-top: 30%;
+    }
+    .para{
+        font-size: 9px;
+    }
+    .child34{
+        margin-top:-50% ;
+        
+
+    }  
+    .child3{
+        box-sizing: border-box;
+        padding: 5%;
+        margin-top: 20%;
+        padding-bottom: 20%;
+        height: 44%;
+    } 
+    .child4{
+        box-sizing: border-box;
+        padding: 5%;
+        margin-top: 20%;
+        padding-bottom: 20%;
+        height: 43%;
+        
+    }
+    .child5{
+        box-sizing: border-box;
+        padding: 5%;
+        margin-top: 30%;
+        height: 60%;
+        margin-right: 50%;
+        padding-bottom: 20%;
+        font-family: inherit;
+        width: 100%;
+    }
+    .child2 .img{
+        margin-top: -15%;
+        margin-left: 75%;
+    }
+    
+    .child4 .img{
+         margin-top: -15%;
+         margin-left: 75%;
+    }
+    .child3 .img{
+        margin-top: -15%;
+        margin-left: 75%;
+    }
+    .child5 .img {
+        margin-top: -20%;
+       margin-left: 75%;
+    }
+}
+   
+
+
+@media (max-width: 375px){
+   
+    .container{
+        display: flex;
+       flex-direction: column;
+       
+        
+        justify-content: space-around;
+    }
+        
+     /*   
+  
+    }
+    .night{
+        padding-top: 5px;
+        text-align: center;
+        font-weight: 100%;
+    }
+     #para{
+         padding-top: 20px;
+         text-align: center;
+        font-family: inherit;
+       
+        font-size: 14px 
+     }
+     .para{
+        font-size: 14px  
+     }
+    
+    .para{
+        font-size: 9px;
+    }
+    .child1{
+        padding-top: 50px;
+    }
+    .child2{
+        box-sizing: border-box;
+        padding: 5%;
+        
+        
+    }
+    
+    .child3{
+        box-sizing: border-box; 
+        margin-top: 90%; 
+        padding: 20%;
+        
+    } 
+    
+    .child4{
+        box-sizing: border-box;
+        height: 42%;
+        
+    }
+    
+    .child5{
+        box-sizing: border-box;
+        
+       
+    }
+}
+
+
+    .child2 .img{
+        margin-top: -15%;
+        margin-left: 75%;
+    }
+    
+    .child4 .img{
+         margin-top: -15%;
+         margin-left: 75%;
+    }
+    .child3 .img{
+        margin-top: -15%;
+        margin-left: 75%;
+    }
+    .child5 .img {
+        margin-top: -20%;
+       margin-left: 75%;
+    }
+    
+    
+    
+    
+   
